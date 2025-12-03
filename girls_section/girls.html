@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WonderToys | Girls Section</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;600&family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="text-gray-700">
+
+    <header class="relative bg-gradient-to-r from-pink-100 via-purple-100 to-teal-50 py-12 md:py-20 overflow-hidden">
+        <div class="absolute top-0 right-0 w-64 h-64 bg-[#FF8FA3]/20 rounded-full blur-3xl -mr-10 -mt-10"></div>
+        <div class="absolute bottom-0 left-0 w-64 h-64 bg-[#80FFDB]/20 rounded-full blur-3xl -ml-10 -mb-10"></div>
+
+        <div class="container mx-auto px-4 flex flex-col-reverse md:flex-row items-center relative z-10">
+            <div class="md:w-1/2 text-center md:text-left mt-8 md:mt-0">
+                <span class="bg-white text-[#C9184A] px-4 py-1 rounded-full text-sm font-bold shadow-sm mb-4 inline-block">✨ Girls Collection</span>
+                <h1 class="text-4xl md:text-6xl font-bold text-gray-800 leading-tight mb-4">
+                    Dream Big, <br> <span class="text-[#C9184A]">Play Bigger!</span>
+                </h1>
+                <p class="text-lg text-gray-600 mb-8 max-w-md mx-auto md:mx-0">
+                    From magical castles to coding robots. Explore a world of imagination curated just for her.
+                </p>
+                <a href="#shop-section" class="inline-block bg-[#C9184A] hover:bg-pink-600 text-white font-bold py-3 px-8 rounded-full shadow-lg transform transition hover:-translate-y-1 hover:shadow-[#FF8FA3]/50">
+                    Explore Toys <i class="fa-solid fa-arrow-right ml-2"></i>
+                </a>
+            </div>
+            <div class="md:w-1/2 flex justify-center">
+                <img src="https://placehold.co/500x400/FF8FA3/white?text=Fun+Toys&font=roboto" alt="Happy Kids Playing" class="rounded-3xl shadow-2xl float-anim border-4 border-white">
+            </div>
+        </div>
+    </header>
+
+    <div class="container mx-auto px-4 py-12 flex flex-col lg:flex-row gap-8" id="shop-section">
+        
+        <aside class="w-full lg:w-1/4">
+            <div class="bg-white p-6 rounded-2xl shadow-sm sticky top-10">
+                <div class="flex justify-between items-center mb-6">
+                    <h3 class="text-xl font-bold text-gray-800">Filters</h3>
+                    <button class="text-sm text-[#C9184A] hover:underline">Reset</button>
+                </div>
+
+                <div class="mb-8">
+                    <h4 class="font-bold text-gray-700 mb-3">Category</h4>
+                    <div class="space-y-2 text-sm text-gray-600">
+                        <label class="flex items-center gap-2 cursor-pointer hover:text-[#C9184A]">
+                            <input type="checkbox" checked class="accent-[#C9184A] w-4 h-4"> Dolls & Accessories
+                        </label>
+                        <label class="flex items-center gap-2 cursor-pointer hover:text-[#C9184A]">
+                            <input type="checkbox" class="accent-[#C9184A] w-4 h-4"> Arts & Crafts
+                        </label>
+                        <label class="flex items-center gap-2 cursor-pointer hover:text-[#C9184A]">
+                            <input type="checkbox" class="accent-[#C9184A] w-4 h-4"> STEM & Learning
+                        </label>
+                        <label class="flex items-center gap-2 cursor-pointer hover:text-[#C9184A]">
+                            <input type="checkbox" class="accent-[#C9184A] w-4 h-4"> Plushies
+                        </label>
+                    </div>
+                </div>
+
+                <div class="mb-8">
+                    <h4 class="font-bold text-gray-700 mb-3">Age Group</h4>
+                    <select class="w-full bg-gray-50 border border-gray-200 text-gray-700 py-2 px-3 rounded-lg focus:outline-none focus:border-[#FF8FA3]">
+                        <option>All Ages</option>
+                        <option>3 - 5 Years</option>
+                        <option>6 - 8 Years</option>
+                        <option>9 - 12 Years</option>
+                        <option>12+ Years</option>
+                    </select>
+                </div>
+
+                <div class="mb-2">
+                    <h4 class="font-bold text-gray-700 mb-3">Max Price: <span class="text-[#C9184A]">$100</span></h4>
+                    <input type="range" min="0" max="200" value="100" step="5">
+                    <div class="flex justify-between text-xs text-gray-400 mt-2">
+                        <span>$0</span>
+                        <span>$200+</span>
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+        <main class="w-full lg:w-3/4">
+            
+            <div class="flex flex-col sm:flex-row justify-between items-center mb-6 gap-4">
+                <p class="text-gray-500"><span class="font-bold text-gray-800">3</span> products found</p>
+                <div class="flex bg-white rounded-full px-4 py-2 border border-gray-200 focus-within:border-[#FF8FA3] transition">
+                    <input type="text" placeholder="Search this section..." class="bg-transparent outline-none text-sm w-40 sm:w-60">
+                    <button class="text-gray-400 hover:text-[#C9184A]"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </div>
+                <select class="bg-white border border-gray-200 text-gray-700 py-2 px-4 rounded-full focus:outline-none focus:border-[#FF8FA3] shadow-sm">
+                    <option>Most Popular</option>
+                    <option>Price: Low to High</option>
+                    <option>Price: High to Low</option>
+                    <option>Newest Arrivals</option>
+                </select>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                
+                <div class="bg-white rounded-2xl p-4 shadow-sm border border-gray-100 card-hover transition-all duration-300 flex flex-col h-full relative">
+                    <span class="absolute top-3 left-3 bg-[#C9184A] text-white text-xs font-bold px-2 py-1 rounded-full z-10">Best Seller</span>
+                    <div class="relative overflow-hidden rounded-xl mb-4 group cursor-pointer bg-gray-50 aspect-square">
+                        <img src="https://placehold.co/400x400/FFC0CB/white?text=Princess+Castle" alt="Castle" class="w-full h-full object-cover transition duration-500 group-hover:scale-110">
+                    </div>
+                    <div class="flex-grow">
+                        <div class="flex justify-between items-start mb-2">
+                            <p class="text-xs text-gray-400 font-bold uppercase tracking-wide">dolls</p>
+                            <div class="flex gap-1">
+                                <i class="fa-solid fa-star text-[#FFD60A] text-xs"></i>
+                                <i class="fa-solid fa-star text-[#FFD60A] text-xs"></i>
+                                <i class="fa-solid fa-star text-[#FFD60A] text-xs"></i>
+                                <i class="fa-solid fa-star text-[#FFD60A] text-xs"></i>
+                                <i class="fa-solid fa-star text-[#FFD60A] text-xs"></i>
+                            </div>
+                        </div>
+                        <h3 class="font-bold text-gray-800 text-lg leading-tight mb-2 hover:text-[#C9184A] cursor-pointer">Starlight Princess Castle</h3>
+                    </div>
+                    <div class="flex justify-between items-center mt-4 pt-4 border-t border-gray-100">
+                        <span class="text-2xl font-bold text-gray-900">$89.99</span>
+                        <button class="add-btn text-sm font-bold text-[#C9184A] border border-[#C9184A] rounded-lg px-3 py-1.5 hover:bg-[#C9184A] hover:text-white transition">Add</button>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-2xl p-4 shadow-sm border border-gray-100 card-hover transition-all duration-300 flex flex-col h-full relative">
+                    <span class="absolute top-3 left-3 bg-[#C9184A] text-white text-xs font-bold px-2 py-1 rounded-full z-10">Educational</span>
+                    <div class="relative overflow-hidden rounded-xl mb-4 group cursor-pointer bg-gray-50 aspect-square">
+                        <img src="https://placehold.co/400x400/80FFDB/333?text=Chemistry+Set" alt="Chemistry" class="w-full h-full object-cover transition duration-500 group-hover:scale-110">
+                    </div>
+                    <div class="flex-grow">
+                        <div class="flex justify-between items-start mb-2">
+                            <p class="text-xs text-gray-400 font-bold uppercase tracking-wide">stem</p>
+                            <div class="flex gap-1">
+                                <i class="fa-solid fa-star text-[#FFD60A] text-xs"></i>
+                                <i class="fa-solid fa-star text-[#FFD60A] text-xs"></i>
+                                <i class="fa-solid fa-star text-[#FFD60A] text-xs"></i>
+                                <i class="fa-solid fa-star text-[#FFD60A] text-xs"></i>
+                                <i class="fa-solid fa-star text-[#FFD60A] text-xs"></i>
+                            </div>
+                        </div>
+                        <h3 class="font-bold text-gray-800 text-lg leading-tight mb-2 hover:text-[#C9184A] cursor-pointer">Young Chemist Lab Kit</h3>
+                    </div>
+                    <div class="flex justify-between items-center mt-4 pt-4 border-t border-gray-100">
+                        <span class="text-2xl font-bold text-gray-900">$34.50</span>
+                        <button class="add-btn text-sm font-bold text-[#C9184A] border border-[#C9184A] rounded-lg px-3 py-1.5 hover:bg-[#C9184A] hover:text-white transition">Add</button>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-2xl p-4 shadow-sm border border-gray-100 card-hover transition-all duration-300 flex flex-col h-full relative">
+                    <div class="relative overflow-hidden rounded-xl mb-4 group cursor-pointer bg-gray-50 aspect-square">
+                        <img src="https://placehold.co/400x400/E0B0FF/white?text=DIY+Jewelry" alt="Jewelry" class="w-full h-full object-cover transition duration-500 group-hover:scale-110">
+                    </div>
+                    <div class="flex-grow">
+                        <div class="flex justify-between items-start mb-2">
+                            <p class="text-xs text-gray-400 font-bold uppercase tracking-wide">arts</p>
+                            <div class="flex gap-1">
+                                <i class="fa-solid fa-star text-[#FFD60A] text-xs"></i>
+                                <i class="fa-solid fa-star text-[#FFD60A] text-xs"></i>
+                                <i class="fa-solid fa-star text-[#FFD60A] text-xs"></i>
+                                <i class="fa-solid fa-star text-[#FFD60A] text-xs"></i>
+                                <i class="fa-regular fa-star text-[#FFD60A] text-xs"></i>
+                            </div>
+                        </div>
+                        <h3 class="font-bold text-gray-800 text-lg leading-tight mb-2 hover:text-[#C9184A] cursor-pointer">DIY Friendship Bracelet Set</h3>
+                    </div>
+                    <div class="flex justify-between items-center mt-4 pt-4 border-t border-gray-100">
+                        <span class="text-2xl font-bold text-gray-900">$19.99</span>
+                        <button class="add-btn text-sm font-bold text-[#C9184A] border border-[#C9184A] rounded-lg px-3 py-1.5 hover:bg-[#C9184A] hover:text-white transition">Add</button>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="mt-12 text-center">
+                <button class="text-[#C9184A] font-bold border-2 border-[#C9184A] hover:bg-[#C9184A] hover:text-white py-2 px-8 rounded-full transition">Load More</button>
+            </div>
+        </main>
+
+    </div>
+
+    <section class="bg-[#FFF0F3] mt-16 py-16">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold text-[#C9184A] mb-4">Join the Wonder Club! 🦄</h2>
+            <p class="text-gray-600 mb-6">Get exclusive offers, birthday surprises, and magical updates.</p>
+            <form class="max-w-md mx-auto flex gap-2">
+                <input type="email" placeholder="Parent's Email Address" class="flex-1 px-4 py-3 rounded-lg border-2 border-transparent focus:border-[#FF8FA3] outline-none">
+                <button type="button" class="bg-[#C9184A] text-white font-bold px-6 py-3 rounded-lg hover:bg-pink-600 transition">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="bg-gray-900 text-white pt-16 pb-8">
+        <div class="container mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
+            <div>
+                <a href="#" class="flex items-center gap-2 text-2xl font-bold mb-4 brand-font">
+                    <i class="fa-solid fa-wand-magic-sparkles text-[#FF8FA3]"></i>
+                    WonderToys
+                </a>
+                <p class="text-gray-400 text-sm">Inspiring the next generation of dreamers, makers, and leaders through play.</p>
+            </div>
+            <div>
+                <h4 class="font-bold mb-4">Shop</h4>
+                <ul class="space-y-2 text-gray-400 text-sm">
+                    <li><a href="#" class="hover:text-[#80FFDB]">New Arrivals</a></li>
+                    <li><a href="#" class="hover:text-[#80FFDB]">Best Sellers</a></li>
+                    <li><a href="#" class="hover:text-[#80FFDB]">Gift Cards</a></li>
+                    <li><a href="#" class="hover:text-[#80FFDB]">Sale</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="font-bold mb-4">Support</h4>
+                <ul class="space-y-2 text-gray-400 text-sm">
+                    <li><a href="#" class="hover:text-[#80FFDB]">Order Status</a></li>
+                    <li><a href="#" class="hover:text-[#80FFDB]">Shipping & Returns</a></li>
+                    <li><a href="#" class="hover:text-[#80FFDB]">Safety Info</a></li>
+                    <li><a href="#" class="hover:text-[#80FFDB]">Contact Us</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="font-bold mb-4">Follow Us</h4>
+                <div class="flex gap-4">
+                    <a href="#" class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-[#FF8FA3] transition"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-blue-600 transition"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-red-600 transition"><i class="fa-brands fa-pinterest-p"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="border-t border-gray-800 text-center pt-8 text-sm text-gray-500">
+            &copy; 2023 WonderToys Inc. All rights reserved.
+        </div>
+    </footer>
+</body>
+</html>
